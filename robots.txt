@@ -1,0 +1,19 @@
+# physiodanalireviews.gr — reviews hub
+User-agent: *
+Allow: /
+
+# AI answer/search crawlers welcome (GEO)
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: GPTBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://physiodanalireviews.gr/sitemap.xml
