@@ -252,6 +252,9 @@
   .wrap { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
 
   /* Hero */
+  .brand { display:inline-block; margin-bottom:34px; }
+  .brand img { height:44px; width:auto; display:block; }
+  @media (max-width:640px){ .brand img { height:36px; } .brand { margin-bottom:26px; } }
   header.hero {
     position: relative;
     padding: 72px 0 64px;
@@ -359,6 +362,9 @@
 
 <header class="hero">
   <div class="wrap">
+    <a class="brand" href="https://physiodanali.gr" aria-label="PhysioDanali — αρχική σελίδα">
+      <img src="/logo.png" alt="PhysioDanali" width="1190" height="190" />
+    </a>
     <p class="eyebrow">Αξιολογήσεις ασθενών</p>
     <h1 class="serif">Οι ασθενείς μιλούν <em>από μόνοι τους.</em></h1>
     <p class="lead">Άμεση ανακούφιση — στον δικό τους χώρο. Να τι λένε οι ασθενείς του Κωνσταντίνου Δανάλη.</p>
